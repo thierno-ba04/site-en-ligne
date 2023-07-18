@@ -1,0 +1,431 @@
+
+p{
+    font-size: 17px;
+}
+nav{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 1rem;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.bg{
+    width: 100%;
+    height: 600px;
+    background-image: url(img-landing/Rectangle\ 46.png);
+}
+.bakeli{
+    background-color: white;
+    margin-left: 46%;
+    margin-top: 180px;
+    border-radius: 15px;
+}
+.p1{
+    background-color: rgb(73, 72, 72);
+    width: 16%;
+    height: 55px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.p12 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+} 
+
+.iconimg{
+    width:  150px;
+    height: 150px;
+    border-radius: 75px;
+   border: 2px solid green;
+   margin: auto;
+   text-align: center;
+}
+
+.iconimg img{
+     margin: 3rem;
+
+}
+
+
+h1{
+    font-size: 50px;
+}
+.bakeli2{
+    background-color: gray;
+    height: 335px;
+    text-align: center;
+    margin-top: 75px;
+    padding-top: 25px;
+}
+.paragraph2{
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+}
+.iconlang{
+    display: flex;
+    grid-template-columns: 65px 65px 65px 65px;
+}
+.lang1{
+    background-color: rgb(0, 225, 255);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang2{
+    background-color: rgba(255, 33, 51, 0.308);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang3{
+    background-color: rgb(26, 27, 26);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang4{
+    background-color: rgb(255, 0, 119);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang5{
+    background-color: rgb(12, 12, 214);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang6{
+    background-color: rgba(151, 153, 150, 0.822);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang7{
+    background-color: rgb(0, 255, 115);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+.lang8{
+    background-color: rgba(255, 166, 0, 0.644);
+    width: 25%;
+    height: 270px;
+    padding-top: 75px;
+    padding-left: 85px;
+}
+h2{
+    text-align: center;
+    padding-top: 70px;
+}
+h1{
+    text-align: center;
+    padding-top: 70px;
+}
+.p2{
+    text-align: center;
+}
+/* progress */
+.skills-bar{
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.2);
+}
+.skills-bar .bar{
+   margin: 20px 0; 
+}
+.skills-bar .bar :first-child{
+   margin-top: 0px; 
+}
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+.skills-bar .bar .info span{
+   font-size: 17px;
+   font-weight: 500; 
+}
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 1px rgb(0, 0, 0, 0.05),
+                    0px 1px rgb(225, 225, 225, 0.8);
+}
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background-color: green;
+    position: absolute;
+    border-radius: 10px;
+}
+.progress-line.html span{
+    width: 100%;
+}
+
+.progress-line.bakelistesinsérés span{
+    width: 70%;
+}
+
+.progress-line.opportunités span{
+    content: "85%";
+}
+
+.progress-line.pyth span{
+    width: 45%;
+}
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+}
+.bar .progress-line span::after{
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #000;
+    padding: 1px 8px;
+    
+}
+.progress-line.html span::after{
+    content: "100%";
+}
+
+.progress-line.bakelistesinsérés span::after{
+    content: "80%";
+}
+
+.progress-line.opportunités span::after{
+    content: "90%";
+}
+
+.progress-line.PYTH span::after{
+    content: "";
+}
+/* progress */
+.progress1{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.team{
+    background-color: rgb(191, 228, 191);
+    height: 795px;
+}
+.imgteam {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    gap: 35px;
+}
+.hover1 :hover{
+    transition:1s;
+    transform: scale(1.1);
+}
+.sec-img{
+    margin-left: 43%;
+    margin-top: 45px;
+    width: 20px;
+}
+.sec-p{
+    text-align: center;
+    margin-top: 85px;
+}
+h3{
+    text-align: center;
+    margin-top: 85px;
+}
+footer{
+    background-color: rgba(14, 131, 235, 0.164);
+}
+/* h2{
+    text-align: center;
+    padding-top: 45px;
+} */
+.foot{
+    display: flex;
+    gap: 105px;
+    justify-content: center;
+}
+.fin{
+    text-align: center;
+    padding-top: 145px;
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 560px) {
+    nav{
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+}
+.bakeli{
+    margin-left: 34%;
+    margin-top: 180px;
+    border-radius: 15px;
+}
+.p1{
+    width: 100%;
+
+}
+
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+    .icon{
+        display: grid;
+        grid-template-columns: 0px;
+        padding: 2px;
+        height: 1500px;
+        margin-left: -120px;
+    }
+    .progress1{
+        display: grid;
+        grid-template-columns: 10px;
+        margin-left: -250px;
+    }
+    .skills-bar{
+        width: 2000%;
+    }
+    .bakeli2{
+        height: 470px;
+    }
+    .paragraph2{
+        gap: 5px;
+        display: grid;
+    }
+    .iconlang{
+        display: grid;
+        grid-template-columns: 1550px;
+    }
+    .team{
+       height: 980%;
+       
+    }
+    .imgteam{
+        display: grid;
+        margin-left: 110px;
+        width: 45%;
+    }
+    .foot{
+        display: grid;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    nav{
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+}
+.bakeli{
+    margin-left: 34%;
+    margin-top: 180px;
+    border-radius: 15px;
+}
+.p1{
+    width: 100%;
+
+}
+
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+    .icon{
+        display: grid;
+        grid-template-columns: 0px;
+        padding: 2px;
+        height: 1500px;
+        margin-left: -120px;
+    }
+    .progress1{
+        display: grid;
+        grid-template-columns: 10px;
+        margin-left: -250px;
+    }
+    .skills-bar{
+        width: 2000%;
+    }
+    .bakeli2{
+        height: 470px;
+    }
+    .paragraph2{
+        gap: 5px;
+        display: grid;
+    }
+    .iconlang{
+        display: grid;
+        grid-template-columns: 1550px;
+    }
+    .team{
+       height: 980%;
+       
+    }
+    .imgteam{
+        display: grid;
+        margin-left: 110px;
+        width: 45%;
+    }
+    .foot{
+        display: grid;
+    }
+}
